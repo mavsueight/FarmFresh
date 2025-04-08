@@ -1,39 +1,110 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FarmFresh</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FarmFresh - Your Online Marketplace</title>
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-    <header>
-        <h1>Welcome to FarmFresh</h1>
-        <input type="text" id="searchBar" placeholder="Search products...">
-    </header>
-    <nav>
+  <header>
+    <div class="navbar">
+      <h1 class="brand-name">FarmFresh</h1>
+      <nav>
         <ul>
-            <li><a href="fruits.html">Fruits</a></li>
-            <li><a href="vegetables.html">Vegetables</a></li>
-            <li><a href="dairy.html">Dairy</a></li>
-            <li><a href="meat.html">Meat</a></li>
-            <li><a href="organic.html">Organic</a></li>
-            <li><a href="bakery.html">Bakery</a></li>
+          <li><a href="#fruits">Fruits</a></li>
+          <li><a href="#vegetables">Vegetables</a></li>
+          <li><a href="#dairy">Dairy</a></li>
+          <li><a href="#meat">Meat</a></li>
+          <li><a href="#organic">Organic</a></li>
+          <li><a href="#bakery">Bakery</a></li>
         </ul>
-    </nav>
-    <div class="product-categories">
-        <h2>Explore Our Categories</h2>
-        <a href="fruits.html">Fruits</a>
-        <a href="vegetables.html">Vegetables</a>
-        <a href="dairy.html">Dairy</a>
-        <a href="meat.html">Meat</a>
-        <a href="organic.html">Organic</a>
-        <a href="bakery.html">Bakery</a>
+      </nav>
     </div>
-    <footer>
-        <p>&copy; 2025 FarmFresh - Fresh Produce Delivered</p>
-    </footer>
-    <script src="script.js"></script>
+  </header>
+
+  <section class="hero">
+    <h2>Welcome to FarmFresh!</h2>
+    <p>Your online marketplace for fresh, organic produce.</p>
+    <button class="cta-btn">Shop Now</button>
+  </section>
+
+  <section class="categories">
+    <div class="category" id="fruits">
+      <h3>Fruits</h3>
+      <div class="products">
+        <div class="product">Apple</div>
+        <div class="product">Banana</div>
+        <div class="product">Mango</div>
+        <div class="product">Orange</div>
+        <div class="product">Pineapple</div>
+        <div class="product">Watermelon</div>
+      </div>
+    </div>
+
+    <div class="category" id="vegetables">
+      <h3>Vegetables</h3>
+      <div class="products">
+        <div class="product">Carrot</div>
+        <div class="product">Broccoli</div>
+        <div class="product">Spinach</div>
+        <div class="product">Cucumber</div>
+        <div class="product">Bell Pepper</div>
+        <div class="product">Tomato</div>
+      </div>
+    </div>
+
+    <div class="category" id="dairy">
+      <h3>Dairy</h3>
+      <div class="products">
+        <div class="product">Milk</div>
+        <div class="product">Cheese</div>
+        <div class="product">Yogurt</div>
+        <div class="product">Butter</div>
+        <div class="product">Cream</div>
+        <div class="product">Paneer</div>
+      </div>
+    </div>
+
+    <div class="category" id="meat">
+      <h3>Meat</h3>
+      <div class="products">
+        <div class="product">Chicken</div>
+        <div class="product">Beef</div>
+        <div class="product">Pork</div>
+        <div class="product">Lamb</div>
+        <div class="product">Turkey</div>
+        <div class="product">Sausages</div>
+      </div>
+    </div>
+
+    <div class="category" id="organic">
+      <h3>Organic</h3>
+      <div class="products">
+        <div class="product">Organic Kale</div>
+        <div class="product">Organic Tomato</div>
+        <div class="product">Organic Apple</div>
+        <div class="product">Organic Spinach</div>
+        <div class="product">Organic Carrot</div>
+        <div class="product">Organic Banana</div>
+      </div>
+    </div>
+
+    <div class="category" id="bakery">
+      <h3>Bakery</h3>
+      <div class="products">
+        <div class="product">Bread</div>
+        <div class="product">Croissant</div>
+        <div class="product">Bagel</div>
+        <div class="product">Muffin</div>
+        <div class="product">Cake</div>
+        <div class="product">Donut</div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 FarmFresh. All rights reserved.</p>
+  </footer>
 </body>
 </html>
